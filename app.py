@@ -6,7 +6,7 @@ import os
 import speech_recognition as sr
 
 # Set Page Config
-st.set_page_config(page_title="The Ultimate Translator App", page_icon="🌍", layout="centered")
+st.set_page_config(page_title="SMART LANGUAGE BRIDGE", page_icon="🌍", layout="centered")
 
 # Theme toggle
 theme = st.sidebar.radio("Select Theme", ["🌙 Dark Mode", "☀️ Light Mode"])
@@ -38,7 +38,7 @@ else:
     """, unsafe_allow_html=True)
 
 # Main Title
-st.markdown('<div class="title">The Ultimate Translator</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">SMART LANGUAGE BRIDGE</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Type ✏️ or Speak 🎤 and Translate!</div>', unsafe_allow_html=True)
 st.write("---")
 
